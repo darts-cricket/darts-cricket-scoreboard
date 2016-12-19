@@ -7,9 +7,12 @@ angular.module("dartsScoreboardApp", [])
         $scope.p2_19 = 0;
         $scope.p1_18 = 0;
         $scope.p2_18 = 0;
-
         $scope.p1_score = 0;
         $scope.p2_score = 0;
+
+        $scope.toggleScoreboard = function(toggle) {
+            $scope.toggleScoreboard = toggle;
+        };
     }])
     .directive('scoreCell', ["$parse", function($parse) {
         

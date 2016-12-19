@@ -4,51 +4,72 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;*/
-    background-color: #000;
 }
 
 body {
+    background-color: #000 !important;
+    font-family: 'Josefin Slab', serif !important;
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    color: #fff;
+    color: #fff !important;
 }
 
-table {
+.bold {
+    font-weight: 600;
+}
+
+.start-form {
+    width: 30%;
     margin: 0 auto;
-    font-size: 2em;
-    /*font-family: arial, sans-serif;
-    border-collapse: collapse;*/
 }
 
-th, td {
-    width: 160px;
-    height: 80px;
+.btn-default {
+    width: 100%;        
+}
+
+.tbl {
+    width: 30%;
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+.tbl-cell {
+    height: 120px;
+    line-height: 120px;
     text-align: center;
     border: 1px solid #dddddd;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
 
-td:nth-child(odd):hover {
+.tbl-cell:nth-child(odd):hover {
     background-color: rgba(255,255,255,0.1);
     cursor: pointer;
 }
 
-td.score:hover {
+.tbl-cell.score:hover {
     cursor: auto;
     background-color: transparent;
 }
 
+.tbl-head-cell:hover {
+    cursor: auto !important;
+    background-color: transparent !important;
+}
+
 @media (max-width: 768px) {
-	table {
-		width: 100%;
-		min-height: 100vh;
+	.tbl {
+		width: 90%;
 		font-size: 1.5em;
 	}
 
-	th, td {
-		width: auto;
-		height: auto;
-	}
+    .tbl-cell { 
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .start-form {
+        width: 90%;
+    }
 }
