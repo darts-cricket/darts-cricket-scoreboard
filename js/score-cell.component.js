@@ -1,5 +1,8 @@
 
-angular.module("dartsScoreboardApp", [])
+(function() {
+  'use strict';
+
+  angular.module("dartsScoreboardApp", [])
     .controller('ScoreCellCtrl', ['$scope', function($scope) {
         $scope.p1_20 = 0;
         $scope.p2_20 = 0;
@@ -58,3 +61,5 @@ angular.module("dartsScoreboardApp", [])
             link: link
         }
     }]);
+})();
+
