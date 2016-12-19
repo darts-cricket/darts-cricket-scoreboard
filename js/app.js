@@ -1,0 +1,1 @@
+var dartsApp = angular.module('dartsScoreboardApp', []);

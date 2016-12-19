@@ -1,0 +1,42 @@
+html {
+    /*background: url(../img/darts_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    background-color: #000;
+    
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+table {
+    margin: 0 auto;
+    font-size: 2em;
+    /*font-family: arial, sans-serif;
+    border-collapse: collapse;*/
+}
+
+th, td {
+    width: 160px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+td:nth-child(odd):hover {
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+td.score:hover {
+    cursor: auto;
+    background-color: transparent;
+}

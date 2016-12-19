@@ -1,0 +1,40 @@
+<html ng-app="dartsScoreboardApp">
+<head>
+    <title>CRICKET scoreboard</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/score-cell.component.js"></script>
+</head>
+<body>
+    <br/>
+    <h1>CRICKET scoreboard</h1>
+    <table ng-controller="ScoreCellCtrl">
+        <tr>
+            <th>Player 1</th>
+            <th>Score</th>
+            <th>Player 2</th>
+        </tr>
+        <tr>
+            <td id="p1_20" score-cell></td>
+            <td>20</td>
+            <td id="p2_20" score-cell></td>
+        </tr>
+        <tr>
+            <td id="p1_19" score-cell></td>
+            <td>19</td>
+            <td id="p2_19" score-cell></td>
+        </tr>
+        <tr>
+            <td id="p1_18" score-cell></td>
+            <td>18</td>
+            <td id="p2_18" score-cell></td>
+        </tr>
+        <tr>
+            <td class="score">{{p1_score}}</td>
+            <td>---</td>
+            <td class="score">{{p2_score}}</td>
+        </tr>
+    </table>
+</body>
+</html>
