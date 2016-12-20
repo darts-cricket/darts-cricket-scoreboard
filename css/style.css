@@ -53,6 +53,18 @@ body {
     background-color: transparent;
 }
 
+.tbl-cell.strike-1 {
+    background: url('../img/checks1.png');
+}
+
+.tbl-cell.strike-2 {
+    background: url('../img/checks2.png');
+}
+
+.tbl-cell.strike-3 {
+    background: url('../img/checks3.png');
+}
+
 .tbl-head-cell:hover {
     cursor: auto !important;
     background-color: transparent !important;

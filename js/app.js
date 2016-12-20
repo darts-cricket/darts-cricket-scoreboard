@@ -1,1 +1,5 @@
-var dartsApp = angular.module('dartsScoreboardApp', []);
+(function() {
+  'use strict';
+  
+  angular.module('dartsScoreboardApp', []);
+})();
