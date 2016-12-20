@@ -17,7 +17,6 @@
             scope.cellClicked = function(playerIdx, num) {
                 var player = scoreCard.players[playerIdx];
                 scope.scoreCard.hit(player, num);
-
             };
         }
         
